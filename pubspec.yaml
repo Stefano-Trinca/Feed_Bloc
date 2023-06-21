@@ -1,0 +1,27 @@
+name: feed_bloc
+description: Feed Bloc on top of Hive | from Hydrated
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  bloc: ^8.1.1
+  hive: ^2.0.0
+  meta: ^1.3.0
+  synchronized: ^3.0.0
+
+dev_dependencies:
+  very_good_analysis:
+  build_runner: ^2.3.3
+  collection: ^1.17.1
+  crypto: ^3.0.2
+  freezed: ^2.3.2
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.0
+  json_serializable: ^6.6.1
+  mocktail: ^0.3.0
+  path: ^1.8.3
+  test:
+  uuid: ^3.0.7
